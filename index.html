@@ -1,78 +1,70 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<title>Do you want to donate for the hard work?</title>
 	<link rel="stylesheet" type="text/css" href="bower_components/material-design-lite/material.min.css">
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
 	<script type="text/javascript" src="https://blockchain.info/Resources/js/pay-now-button.js"></script>
 </head>
+
 <body>
 	<!-- Wide card with share menu button -->
 	<style>
-		body{
+		body {
 			background-color: #F8F8FF;
 		}
-	  	.demo-card-wide.mdl-card {
-	    	width: 512px;
-      		margin-left: auto ;
-  			margin-right: auto ;
-  			margin-top: 22px;
-	  	}
-	  	.demo-card-wide > .mdl-card__title {
-	    	color: #fff;
-	    	height: 176px;
-	    	background: url('dog.jpg') center / cover;
-	  	}
-	  	.demo-card-wide > .mdl-card__menu {
-	    	color: #fff;
-	  	}
+
+		.demo-card-wide.mdl-card {
+			width: 512px;
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: 22px;
+		}
+
+		.demo-card-wide>.mdl-card__title {
+			color: #fff;
+			height: 176px;
+			background: url('dog.jpg') center / cover;
+		}
+
+		.demo-card-wide>.mdl-card__menu {
+			color: #fff;
+		}
 	</style>
 
-	<div class="mdl-card mdl-shadow--2dp demo-card-wide" >
-	  <div class="mdl-card__title">
-	  </div>
-	  	<div class="mdl-card__supporting-text">
-	  	<h2 class="mdl-card__title-text">Why this page?</h2>
-	  	In the recent years several tools, libs and plugins for web development have been developed. We hope you will find these tools helpful for your work. They are all free for commercial and non-commercial projects and available without any restrictions at all. However, if you really work with one of them often, please think about donating (options below). For discussions and questions you can contact us at the regarding issue section at <a href="https://github.com/s-a/">GitHub</a>. Our official collection of repositories can be found there.
-	  	</div>
-	  	<div class="mdl-card__actions mdl-card--border" style="text-align:center;"></div>
-	  	<div style="text-align:center;">
-	  		<p>
-	    		Do you want to donate the hard work? 
-	  		</p>
+	<div class="mdl-card mdl-shadow--2dp demo-card-wide">
+		<div class="mdl-card__title">
+		</div>
+		<div class="mdl-card__supporting-text">
+			<h2 class="mdl-card__title-text">Why this page?</h2>
+			In the recent years several tools, libs and plugins for web development have been developed. We hope you
+			will find these tools helpful for your work. They are all free for commercial and non-commercial projects
+			and available without any restrictions at all. However, if you really work with one of them often, please
+			think about donating (options below). For discussions and questions you can contact us at the regarding
+			issue section at <a href="https://github.com/s-a/">GitHub</a>. Our official collection of repositories can
+			be found there.
+		</div>
+		<div class="mdl-card__actions mdl-card--border" style="text-align:center;"></div>
+		<div style="text-align:center;">
+			<p>
+				Do you want to donate the hard work?
+			</p>
 
-	  		<div style="font-size:16px;margin:0 auto;width:300px;cursor: pointer;" class="blockchain-btn"
-			     data-address="1FRHj5HPubXgDyCMWrZajT6EP6UnLS8Wuy"
-			     data-shared="false">
-			    <div class="blockchain stage-begin">
-			        <img src="https://blockchain.info/Resources/buttons/donate_64.png"/>
-			    </div>
-			    <div class="blockchain stage-loading" style="text-align:center">
-			        <img src="https://blockchain.info/Resources/loading-large.gif"/>
-			    </div>
-			    <div class="blockchain stage-ready">
-			         <p align="center">Please Donate To Bitcoin Address: <b>[[address]]</b></p>
-			         <p align="center" class="qr-code"></p>
-			    </div>
-			    <div class="blockchain stage-paid">
-			         Donation of <b>[[value]] BTC</b> Received. Thank You.
-			    </div>
-			    <div class="blockchain stage-error">
-			        <font color="red">[[error]]</font>
-			    </div>
-			</div>
-		    
-		    <hr>
 
-		    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-			    <input type="hidden" name="lc" value="US">
-			    <input type="hidden" name="cmd" value="_s-xclick">
-			    <input type="hidden" name="hosted_button_id" value="7LYELANGQ5HDU">
-			    <input type="image" src="https://www.paypalobjects.com/en_US/DE/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-			    <img alt="" border="0" src="https://www.paypalobjects.com/de_DE/i/scr/pixel.gif" width="1" height="1">
-		    </form>
-		    <br>
-	  	</div>
+			<hr>
+
+			<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+				<input type="hidden" name="lc" value="US">
+				<input type="hidden" name="cmd" value="_s-xclick">
+				<input type="hidden" name="hosted_button_id" value="7LYELANGQ5HDU">
+				<input type="image" src="https://www.paypalobjects.com/en_US/DE/i/btn/btn_donateCC_LG.gif" border="0"
+					name="submit" alt="PayPal - The safer, easier way to pay online!">
+				<img alt="" border="0" src="https://www.paypalobjects.com/de_DE/i/scr/pixel.gif" width="1" height="1">
+			</form>
+			<br>
+		</div>
 	</div>
 </body>
+
 </html>
